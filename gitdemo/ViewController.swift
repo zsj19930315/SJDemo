@@ -27,6 +27,12 @@ class ViewController: UIViewController {
         let d = 10
         let sum1 = c + d
         print("The result is : \(sum1)")
+        
+        self.sayHello()
+    }
+    
+    func sayHello() {
+        print("Hello")
     }
 
     override func didReceiveMemoryWarning() {
