@@ -15,11 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("Hello World")
+        print("Hello World!")
         
         let a = 5
         let b = 10
         let sum = a + b
         print("The result is : \(sum)")
+        
+        let c = 5
+        let d = 10
+        let sum1 = c + d
+        print("The result is : \(sum1)")
     }
 
     override func didReceiveMemoryWarning() {
